@@ -13,13 +13,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    min-width: 100dvw;
+
 } 
 
 main {
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 17.5px );
-    -webkit-backdrop-filter: blur( 60px );
+    backdrop-filter: blur( 10px );
     border-radius: 8px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: white;
@@ -51,6 +53,7 @@ form button {
     margin: 10px 0;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .bansuri-container {
