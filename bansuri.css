@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    background-image: url('./images/bansuri.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+main {
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 17.5px );
+    -webkit-backdrop-filter: blur( 60px );
+    border-radius: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3px;
+    margin: 1dvh 0 ;
+}
+
+form input[type="number"] {
+    padding: 6px 6px;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+} 
+
+form button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 5px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bansuri-container {
+    padding: 10px 10px;
+    min-height: fit-content;
+}
+
+.bansuri-container h1 {
+    color: rgb(246, 247, 245);
+}
+
+.result {
+ margin: 30px 0;
+ text-align: center;
+ font-size: 18px;
+ font-weight: 500;
+}
