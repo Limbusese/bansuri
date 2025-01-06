@@ -49,13 +49,19 @@
 document.addEventListener('DOMContentLoaded', function() {
     function Bansuri(totalLength) {
         const blowingHole = `The blowing hole value is: ${Number(((87.92 / 100) * totalLength).toFixed(3))} cm`;
-        const tuningHole = `The tuning hole value is: ${Number(((10.63 / 100) * totalLength).toFixed(3))} cm`;
-        const firstHole = `The 1st hole value is: ${Number(((20.99 / 100) * totalLength).toFixed(3))} cm`;
-        const secondHole = `The 2nd hole value is: ${Number(((29 / 100) * totalLength).toFixed(3))} cm`;
-        const thirdHole = `The 3rd hole value is: ${Number(((32.80 / 100) * totalLength).toFixed(3))} cm`;
-        const fourthHole = `The 4th hole value is: ${Number(((40.81 / 100) * totalLength).toFixed(3))} cm`;
-        const fifthHole = `The 5th hole value is: ${Number(((46.98 / 100) * totalLength).toFixed(3))} cm`;
+        const tuningHole = `The tuning hole value is: ${Number(((10.49 / 100) * totalLength).toFixed(3))} cm`;
+
         const sixthHole = `The 6th hole value is: ${Number(((52.49 / 100) * totalLength).toFixed(3))} cm`;
+        const fifthHole = `The 5th hole value is: ${Number(((46.98 / 100) * totalLength).toFixed(3))} cm`;
+        const fourthHole = `The 4th hole value is: ${Number(((40.81 / 100) * totalLength).toFixed(3))} cm`;
+        const thirdHole = `The 3rd hole value is: ${Number(((32.80 / 100) * totalLength).toFixed(3))} cm`;
+        const secondHole = `The 2nd hole value is: ${Number(((29 / 100) * totalLength).toFixed(3))} cm`;
+        const firstHole = `The 1st hole value is: ${Number(((20.99 / 100) * totalLength).toFixed(3))} cm`;
+     
+     
+      
+        
+      
 
         return [blowingHole, tuningHole, firstHole, secondHole, thirdHole, fourthHole, fifthHole, sixthHole];
     }
