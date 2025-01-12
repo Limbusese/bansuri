@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const fifthHole = `The 5th hole value is: ${Number(((72.17 / 100) * totalLength).toFixed(3))} cm`;
         const sixthHole = `The 6th hole value is: ${Number(((80 / 100) * totalLength).toFixed(3))} cm`;
 
-        return [blowingHole, tuningHole, sixthHole, fifthHole, fourthHole, thirdHole, secondHole, firstHole,  ];
+        return [blowingHole, tuningHole, firstHole, secondHole, thirdHole, fourthHole,fifthHole, sixthHole];
     }
 
     // Get the form element
